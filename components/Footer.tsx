@@ -47,7 +47,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="f00d9a3a1109f4b4fad5b4d7919a020c5d14839444ea7469"
+                data-tb-secret="77cb33fb3faa68c85f3536c789af0f1847e75a0cef8630a6"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
