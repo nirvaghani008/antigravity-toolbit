@@ -43,11 +43,11 @@ export default function Footer() {
             {/* ToolBit Featured Badge */}
             <div className="pt-2">
               <a
-                href="http://localhost:3000/ai-tool/antigravity-toolbit?ref=embed"
+                href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="07a5ce864b8f3e3bef2ff2bbbf8551e4b6711cc60b81aa62"
+                data-tb-secret="344b394604d709a0adefbeddf042dbb12f4095a55a508380"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
