@@ -43,11 +43,11 @@ export default function Footer() {
             {/* ToolBit Featured Badge */}
             <div className="pt-2">
               <a
-                href="https://toolbit.ai/ai-tool/antigravity-toolbit?ref=embed"
+                href="http://localhost:3000/ai-tool/antigravity-toolbit?ref=embed"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="77cb33fb3faa68c85f3536c789af0f1847e75a0cef8630a6"
+                data-tb-secret="07a5ce864b8f3e3bef2ff2bbbf8551e4b6711cc60b81aa62"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
