@@ -40,6 +40,25 @@ export default function Footer() {
               <span>Also known as: </span>
               <span className="text-slate-400">ToonCraft AI • CartoonGen Pro</span>
             </div>
+            {/* ToolBit Featured Badge */}
+            <div className="pt-2">
+              <a
+                href="https://toolbit.ai/ai-tool/antigravity-toolbit?ref=embed"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ cursor: "pointer" }}
+                data-tb-secret="3e674528a7dc47600f680334b113f5e68d4d0ffa1aa9e40f"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
+                  alt="Featured on ToolBit.ai - Antigravity Toolbit"
+                  style={{ display: "block", width: "250px", height: "76px" }}
+                  width="250"
+                  height="76"
+                />
+              </a>
+            </div>
           </div>
 
           {/* Column 2: Navigation */}
