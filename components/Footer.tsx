@@ -47,12 +47,12 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="a657a940289c5d43917678472e69a4168cfd38f7efb3884a"
+                data-tb-secret="9d27ab06e566562a41d4682afd319659406569737c99ac80"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
-                  alt="Featured on ToolBit.ai - ToonForge AI"
+                  src="https://cdn.toolbit.ai/external-share-img/dark-featured.svg"
+                  alt="Featured on ToolBit.ai - Antigravity Toolbit"
                   style={{ display: "block", width: "250px", height: "76px" }}
                   width="250"
                   height="76"
