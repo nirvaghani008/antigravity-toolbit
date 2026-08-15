@@ -47,11 +47,11 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="d1f4d42520556a6e93aed08fb4a923738c0f8d6f9fb2df20"
+                data-tb-secret="75c00f23619498e9b2dae95aa0dec93feeaab1e83a1f7471"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
+                  src="https://cdn.toolbit.ai/external-share-img/dark-featured.svg"
                   alt="Featured on ToolBit.ai - Antigravity Toolbit"
                   style={{ display: "block", width: "250px", height: "76px" }}
                   width="250"
