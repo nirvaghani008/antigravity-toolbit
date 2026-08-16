@@ -46,7 +46,7 @@ export default function Footer() {
                 href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed"
                 target="_blank"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="d807a6ec56000219107d7194f12df390d797535645742f45"
+                data-tb-secret="d023a0698095c6b2be25ad7678a4392c2132e016971564bd"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
