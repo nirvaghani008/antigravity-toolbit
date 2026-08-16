@@ -43,15 +43,15 @@ export default function Footer() {
             {/* ToolBit Featured Badge */}
             <div className="pt-2">
               <a
-                href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed"
+                href="https://toolbit.ai/ai-tool/antigravity-toolbit-ei18yinqs-nirvaghani008-6911s-projects-v?ref=embed"
                 target="_blank"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="d023a0698095c6b2be25ad7678a4392c2132e016971564bd"
+                data-tb-secret="2ec8d209becedaa00918d2e8ee046a6fa442a064cf770da3"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
-                  alt="Featured on ToolBit.ai - Antigravity Toolbit
+                  alt="Featured on ToolBit.ai - Antigravity Toolbit"
                   style={{ display: "block", width: "250px", height: "76px" }}
                   width="250"
                   height="76"
