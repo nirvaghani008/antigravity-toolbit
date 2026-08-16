@@ -42,7 +42,21 @@ export default function Footer() {
             </div>
             {/* ToolBit Featured Badge */}
             <div className="pt-2">
-              <a href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed" target="_blank" style="cursor: pointer;" data-tb-secret="d807a6ec56000219107d7194f12df390d797535645742f45"><img src="https://cdn.toolbit.ai/external-share-img/light-featured.svg" alt="Featured on ToolBit.ai - Antigravity Toolbit" style="display:block;width:250px;height:76px" width="250" height="76"></a>
+              <a
+                href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed"
+                target="_blank"
+                style={{ cursor: "pointer" }}
+                data-tb-secret="d807a6ec56000219107d7194f12df390d797535645742f45"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
+                  alt="Featured on ToolBit.ai - Antigravity Toolbit"
+                  style={{ display: "block", width: "250px", height: "76px" }}
+                  width="250"
+                  height="76"
+                />
+              </a>
             </div>
           </div>
 
