@@ -5,35 +5,50 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "ToonForge AI — Turn Any Idea Into a Cartoon Character Instantly",
+    default: "ToonForge AI — Turn Any Idea Into Animated Magic",
     template: "%s | ToonForge AI",
   },
   description:
-    "Generate custom, high-definition AI cartoon characters in seconds from simple text prompts or photo uploads. Powered by advanced latent diffusion neural models.",
+    "Generate stunning cartoon-style videos and images from text, photos, or clips in seconds. AI-powered 3D Pixar, Anime, Comic Ink, and Claymation video generation without animation skills.",
   keywords: [
     "AI cartoon generator",
-    "text to cartoon AI",
-    "AI character generator",
-    "photo to cartoon AI",
-    "anime AI generator",
+    "AI video generator",
+    "text to cartoon video",
+    "photo to animation AI",
+    "cartoon video maker",
+    "anime video generator",
     "3D Pixar style generator",
     "ToonForge AI",
-    "ToonCraft",
-    "CartoonGen",
+    "AI animation software",
+    "lip sync animation AI",
   ],
+  authors: [{ name: "ToonForge AI Team" }],
+  creator: "ToonForge AI",
+  publisher: "ToonForge AI, Inc.",
+  metadataBase: new URL("https://toonforge.ai"),
   openGraph: {
-    title: "ToonForge AI — Turn Any Idea Into a Cartoon Character",
+    title: "ToonForge AI — Turn Any Idea Into Animated Magic",
     description:
-      "Create high-definition AI cartoon character art instantly. Free text-to-character generation with multiple art styles.",
+      "Generate stunning cartoon-style videos and images from text, photos, or clips in seconds. No animation skills required.",
     url: "https://toonforge.ai",
     siteName: "ToonForge AI",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/images/hero-cartoon.jpg",
+        width: 1200,
+        height: 630,
+        alt: "ToonForge AI Cartoon Video Generator",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ToonForge AI — AI Cartoon Character Generator",
-    description: "Turn any prompt or photo into a custom cartoon character avatar with AI.",
+    title: "ToonForge AI — AI Cartoon & Video Generator",
+    description:
+      "Generate stunning cartoon-style videos and images from text, photos, or clips in seconds.",
+    images: ["/images/hero-cartoon.jpg"],
   },
 };
 
@@ -44,7 +59,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark scroll-smooth">
-      <body className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans antialiased selection:bg-indigo-500 selection:text-white">
+      <body className="min-h-screen bg-[#06080f] text-slate-100 flex flex-col font-sans antialiased selection:bg-purple-600 selection:text-white">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
