@@ -80,13 +80,13 @@ export default function Footer() {
             </p>
 
             {/* ToolBit Featured Badge */}
-            <div className="pt-3">
+            <div className="pt-2">
               <a
-                href="https://toolbit.ai/ai-tool/antigravity-toolbit-ei18yinqs-nirvaghani008-6911s-projects-v?ref=embed"
+                href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="2ec8d209becedaa00918d2e8ee046a6fa442a064cf770da3"
+                data-tb-secret="611840239a9e0a649cd294a81c81938862bc5f78a8cc678c"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
