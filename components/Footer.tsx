@@ -90,7 +90,7 @@ export default function Footer() {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
+                  src="https://cdn.toolbit.ai/external-share-img/dark-featured.svg"
                   alt="Featured on ToolBit.ai - Antigravity Toolbit"
                   style={{ display: "block", width: "250px", height: "76px" }}
                   width="250"
