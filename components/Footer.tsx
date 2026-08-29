@@ -86,11 +86,11 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
-                data-tb-secret="cc1ae7848f331506b5e7d0ddbaaf4fd3c0ef1cffe0a26c63"
+                data-tb-secret="c4653ea593673487d015b89f0015585c5bac0a0b8182ab0c"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://cdn.toolbit.ai/external-share-img/dark-featured.svg"
+                  src="https://cdn.toolbit.ai/external-share-img/light-featured.svg"
                   alt="Featured on ToolBit.ai - ToonForge AI"
                   style={{ display: "block", width: "250px", height: "76px" }}
                   width="250"
