@@ -82,7 +82,7 @@ export default function Footer() {
             {/* ToolBit Featured Badge */}
             <div className="pt-2">
               <a
-                href="https://toolbit.ai/ai-tool/antigravity-toolbit-vercel-app?ref=embed"
+                href="https://toolbit.ai/ai-tool/antigravity?ref=embed"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ cursor: "pointer" }}
