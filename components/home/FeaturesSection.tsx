@@ -70,7 +70,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section id="features" className="py-20 lg:py-28 relative scroll-mt-16">
+    <section id="features" className="py-20 lg:py-28 relative scroll-mt-16 overflow-x-clip">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-purple-900/10 blur-[140px] rounded-full pointer-events-none -z-10" />
 

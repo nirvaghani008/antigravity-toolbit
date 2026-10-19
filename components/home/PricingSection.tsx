@@ -38,7 +38,7 @@ export default function PricingSection() {
       description: "For YouTubers, TikTokers, marketers, and solo creators building an audience.",
       monthlyPrice: "$19",
       annualPrice: "$14",
-      billingPeriod: "per month, billed annually",
+      billingPeriod: "Billed monthly",
       cta: "Get Creator Pro",
       ctaVariant: "primary" as const,
       popular: true,
@@ -60,7 +60,7 @@ export default function PricingSection() {
       description: "For production studios, creative agencies, and high-volume marketing teams.",
       monthlyPrice: "$59",
       annualPrice: "$44",
-      billingPeriod: "per month, billed annually",
+      billingPeriod: "Billed monthly",
       cta: "Launch Studio Plan",
       ctaVariant: "secondary" as const,
       popular: false,
@@ -78,7 +78,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section id="pricing" className="py-20 lg:py-28 relative scroll-mt-16">
+    <section id="pricing" className="py-20 lg:py-28 relative scroll-mt-16 overflow-x-clip">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-purple-900/10 blur-[150px] rounded-full pointer-events-none -z-10" />
 
@@ -173,7 +173,7 @@ export default function PricingSection() {
                   </div>
                   <span className="text-[11px] text-slate-400 font-mono block">
                     {isAnnual && plan.annualPrice !== "$0"
-                      ? "Billed annually ($168/year)"
+                      ? `Billed annually ($${Number(plan.annualPrice.slice(1)) * 12}/year)`
                       : plan.billingPeriod}
                   </span>
                 </div>

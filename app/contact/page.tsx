@@ -16,6 +16,7 @@ import Input from "@/components/ui/Input";
 import Textarea from "@/components/ui/Textarea";
 import Select from "@/components/ui/Select";
 import Accordion, { AccordionItem } from "@/components/ui/Accordion";
+import { validateContact, type ContactErrors } from "@/lib/contact-validation";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ export default function ContactPage() {
     message: "",
   });
 
-  const [errors, setErrors] = useState<{ [key: string]: string }>({});
+  const [errors, setErrors] = useState<ContactErrors>({});
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [serverError, setServerError] = useState<string | null>(null);
@@ -39,18 +40,7 @@ export default function ContactPage() {
   ];
 
   const validate = () => {
-    const newErrors: { [key: string]: string } = {};
-    if (!formData.name.trim()) newErrors.name = "Name is required";
-    if (!formData.email.trim()) {
-      newErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = "Please enter a valid email address";
-    }
-    if (!formData.message.trim()) {
-      newErrors.message = "Message cannot be empty";
-    } else if (formData.message.trim().length < 10) {
-      newErrors.message = "Message must be at least 10 characters long";
-    }
+    const newErrors = validateContact(formData);
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
