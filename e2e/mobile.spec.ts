@@ -2,8 +2,11 @@ import { expect, test } from "@playwright/test";
 
 // Runs on a phone-sized screen (see the "mobile" project in playwright.config.ts).
 
-for (const path of ["/", "/about", "/contact"]) {
+const labPaths = ["/lab/tools", "/lab/submit", "/lab/tools/inkpal"];
+
+for (const path of ["/", "/about", "/contact", ...labPaths]) {
   test(`${path} fits the phone screen without sideways scrolling`, async ({ page }) => {
+    test.skip(!!process.env.BASE_URL && labPaths.includes(path), "The Lab only runs locally and in CI");
     await page.goto(path);
     const overflow = await page.evaluate(
       () => document.documentElement.scrollWidth - document.documentElement.clientWidth
